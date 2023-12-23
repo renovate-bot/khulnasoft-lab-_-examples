@@ -161,7 +161,7 @@ const Footer: FC<Props> = () => {
             <div className="flex flex-1 space-x-6 items-center h-10 justify-end">
               <a
                 aria-label="Github Repository"
-                href="https://github.com/vercel/commerce"
+                href="https://github.com/khulnasoft-lab/commerce"
                 className={s.link}
               >
                 <Github />

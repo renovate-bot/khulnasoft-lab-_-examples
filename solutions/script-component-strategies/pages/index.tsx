@@ -64,7 +64,7 @@ function Home() {
         <List>
           <li>
             Polyfill: <Link href="/polyfill">Demo</Link> -{' '}
-            <Link href="https://github.com/vercel/examples/blob/main/solutions/script-component-strategies/pages/polyfill.tsx">
+            <Link href="https://github.com/khulnasoft-lab/examples/blob/main/solutions/script-component-strategies/pages/polyfill.tsx">
               Code
             </Link>
           </li>
@@ -78,7 +78,7 @@ function Home() {
         <List>
           <li>
             Stripe sdk: <Link href="/stripe">Demo</Link> -{' '}
-            <Link href="https://github.com/vercel/examples/blob/main/solutions/script-component-strategies/pages/stripe.tsx">
+            <Link href="https://github.com/khulnasoft-lab/examples/blob/main/solutions/script-component-strategies/pages/stripe.tsx">
               Code
             </Link>
           </li>
@@ -92,7 +92,7 @@ function Home() {
         <List>
           <li>
             FB sdk: <Link href="/fb">Demo</Link> -{' '}
-            <Link href="https://github.com/vercel/examples/blob/main/solutions/script-component-strategies/pages/fb.tsx">
+            <Link href="https://github.com/khulnasoft-lab/examples/blob/main/solutions/script-component-strategies/pages/fb.tsx">
               Code
             </Link>
           </li>

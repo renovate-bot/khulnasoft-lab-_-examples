@@ -7,7 +7,7 @@ const nextConfig = {
       {
         source: '/github',
         destination:
-          'https://github.com/vercel/examples/tree/main/solutions/alt-tag-generator',
+          'https://github.com/khulnasoft-lab/examples/tree/main/solutions/alt-tag-generator',
         permanent: false,
       },
       {
