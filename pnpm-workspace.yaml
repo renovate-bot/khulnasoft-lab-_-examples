@@ -1,0 +1,10 @@
+packages:
+  - 'app-directory/*'
+  - 'edge-functions/*'
+  - 'edge-middleware/*'
+  - 'edge-api-routes/*'
+  - 'plop-templates/*'
+  - 'solutions/*'
+  - 'starter/*'
+  - 'storage/*'
+  - 'python/*'
