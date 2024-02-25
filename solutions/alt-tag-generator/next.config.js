@@ -5,17 +5,15 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/github',
-        destination:
-          'https://github.com/khulnasoft-lab/examples/tree/main/solutions/alt-tag-generator',
+        source: "/github",
+        destination: "https://github.com/vercel/examples/tree/main/solutions/alt-tag-generator",
         permanent: false,
       },
       {
-        source: '/deploy',
-        destination:
-          'https://vercel.com/templates/next.js/ai-alt-text-generator',
+        source: "/deploy",
+        destination: "https://vercel.com/templates/next.js/ai-alt-text-generator",
         permanent: false,
-      },
+      },   
     ]
   },
 }

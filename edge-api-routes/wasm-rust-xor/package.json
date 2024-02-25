@@ -1,8 +1,8 @@
 {
-  "repository": "https://github.com/khulnasoft-lab/examples.git",
+  "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "vercel": "^28.20.0"
+    "vercel": "^28.1.3"
   }
 }

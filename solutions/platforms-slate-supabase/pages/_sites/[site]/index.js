@@ -31,6 +31,7 @@ export default function Index(props) {
         {data.posts.length > 0 ? (
           <div className="w-full max-w-screen-xl lg:w-5/6 mx-auto md:mb-28">
             <Link href={`/${data.posts[0].slug}`}>
+
               <div className="relative group h-80 sm:h-150 w-full mx-auto overflow-hidden lg:rounded-xl">
                 <BlurImage
                   src={data.posts[0].image}
@@ -59,6 +60,7 @@ export default function Index(props) {
                   </p>
                 </div>
               </div>
+
             </Link>
           </div>
         ) : (
@@ -87,7 +89,7 @@ export default function Index(props) {
         </div>
       )}
     </Layout>
-  )
+  );
 }
 
 export async function getStaticPaths() {

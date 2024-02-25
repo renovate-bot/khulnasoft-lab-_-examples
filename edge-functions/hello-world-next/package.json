@@ -1,6 +1,6 @@
 {
   "name": "hello-world",
-  "repository": "https://github.com/khulnasoft-lab/examples.git",
+  "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -15,8 +15,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.56.0",
+    "eslint": "8.29.0",
     "eslint-config-next": "latest",
-    "turbo": "^1.12.4"
+    "turbo": "^1.8.5"
   }
 }

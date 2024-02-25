@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: ${{ inputs.timeout-minutes }}
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.41.2-focal
+      image: mcr.microsoft.com/playwright:v1.25.2-focal
       # Prevents the image from getting into permission denied errors
       options: --user 1001
     steps:

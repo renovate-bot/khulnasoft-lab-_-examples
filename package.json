@@ -2,6 +2,9 @@
   "name": "examples",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "pnpm": "8.14.2"
+  },
   "scripts": {
     "lint-staged": "lint-staged",
     "new-example": "plop example",
@@ -21,14 +24,10 @@
   "devDependencies": {
     "eslint": "latest",
     "eslint-config-next": "canary",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.3.0",
-    "plop": "^3.1.2",
-    "prettier": "^2.8.8",
-    "turbo": "1.12.4",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "plop": "^3.1.1",
+    "prettier": "^2.7.1",
     "typescript": "^4.9.5"
-  },
-  "dependencies": {
-    "@vercel/edge-config": "^0.4.1"
   }
 }
