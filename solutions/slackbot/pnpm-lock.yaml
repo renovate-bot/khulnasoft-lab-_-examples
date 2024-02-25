@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   '@slack/web-api':
-    specifier: 7.0.1
-    version: 7.0.1
+    specifier: 7.0.2
+    version: 7.0.2
   openai:
-    specifier: 4.26.0
-    version: 4.26.0
+    specifier: 4.28.0
+    version: 4.28.0
 
 devDependencies:
   '@types/node':
-    specifier: 20.11.16
-    version: 20.11.16
+    specifier: 20.11.20
+    version: 20.11.20
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -26,7 +26,7 @@ packages:
     resolution: {integrity: sha512-Wz7QYfPAlG/DR+DfABddUZeNgoeY7d1J39OCR2jR+v7VBsB8ezulDK5szTnDDPDwLH5IWhLvXIHlCFZV7MSKgA==}
     engines: {node: '>= 18', npm: '>= 8.6.0'}
     dependencies:
-      '@types/node': 20.11.16
+      '@types/node': 20.11.20
     dev: false
 
   /@slack/types@2.11.0:
@@ -34,13 +34,13 @@ packages:
     engines: {node: '>= 12.13.0', npm: '>= 6.12.0'}
     dev: false
 
-  /@slack/web-api@7.0.1:
-    resolution: {integrity: sha512-xXm3Eq7fDT5FQQlQH8tP4WzoyZXFMnbCSydFF5VZwi+LwIYIJ8yV5ujqvh5zE9XW15SPcPYb6cGEOOg1vAC65w==}
+  /@slack/web-api@7.0.2:
+    resolution: {integrity: sha512-nY1KO+7i4iURihThS1kMOElzesx4jqRJtkxLS9FOT8Debh7vQAzzbzxpMB4QauSs15030eyJ16HCf1IfCT4BKQ==}
     engines: {node: '>= 18', npm: '>= 8.6.0'}
     dependencies:
       '@slack/logger': 4.0.0
       '@slack/types': 2.11.0
-      '@types/node': 20.11.16
+      '@types/node': 20.11.20
       axios: 1.6.7
       eventemitter3: 5.0.1
       form-data: 4.0.0
@@ -56,7 +56,7 @@ packages:
   /@types/node-fetch@2.6.11:
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
     dependencies:
-      '@types/node': 20.11.16
+      '@types/node': 20.11.20
       form-data: 4.0.0
     dev: false
 
@@ -66,8 +66,8 @@ packages:
       undici-types: 5.26.5
     dev: false
 
-  /@types/node@20.11.16:
-    resolution: {integrity: sha512-gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ==}
+  /@types/node@20.11.20:
+    resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
     dependencies:
       undici-types: 5.26.5
 
@@ -238,8 +238,8 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /openai@4.26.0:
-    resolution: {integrity: sha512-HPC7tgYdeP38F3uHA5WgnoXZyGbAp9jgcIo23p6It+q/07u4C+NZ8xHKlMShsPbDDmFRpPsa3vdbXYpbhJH3eg==}
+  /openai@4.28.0:
+    resolution: {integrity: sha512-JM8fhcpmpGN0vrUwGquYIzdcEQHtFuom6sRCbbCM6CfzZXNuRk33G7KfeRAIfnaCxSpzrP5iHtwJzIm6biUZ2Q==}
     hasBin: true
     dependencies:
       '@types/node': 18.19.14

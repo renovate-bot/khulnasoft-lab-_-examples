@@ -11,16 +11,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.11.16",
-    "@types/react": "18.2.55",
-    "@types/react-dom": "18.2.18",
-    "@vercel/blob": "^0.21.0",
+    "@types/node": "20.11.20",
+    "@types/react": "18.2.57",
+    "@types/react-dom": "18.2.19",
+    "@vercel/blob": "^0.22.1",
     "autoprefixer": "10.4.17",
     "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",
-    "nanoid": "^5.0.5",
+    "nanoid": "^5.0.6",
     "next": "14.1.0",
-    "postcss": "8.4.34",
+    "postcss": "8.4.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "@types/ms": "^0.7.34",
-    "turbo": "^1.12.3"
+    "turbo": "^1.12.4"
   }
 }

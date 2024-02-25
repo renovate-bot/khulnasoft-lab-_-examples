@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@vercel/examples-ui": "^1.0.5",
-    "jose": "^4.13.1",
-    "nanoid": "^4.0.1",
+    "jose": "^4.15.4",
+    "nanoid": "^4.0.2",
     "next": "canary",
     "react": "latest",
     "react-dom": "latest",
@@ -21,12 +21,12 @@
   "devDependencies": {
     "@types/node": "^17.0.45",
     "@types/react": "latest",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.36.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
     "eslint-config-next": "canary",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7",
-    "turbo": "^1.8.5",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "turbo": "^1.12.4",
     "typescript": "^4.9.5"
   }
 }
